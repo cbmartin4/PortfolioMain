@@ -1,0 +1,112 @@
+.grid-container {
+    display:grid;
+    grid-template-columns: 700px 500px 100px;
+    grid-template-rows: 60px 110px 100px;
+    grid-row-gap: 50px;
+}
+ul {
+    text-align: left;
+    list-style: none;
+}
+ul li {
+    font: bold 30px/30px 'Open Sans', sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 20px 20px;
+    background: #000000;
+    cursor: pointer;
+}
+.nav-text {
+    color: aliceblue;
+
+}
+ul li:hover {
+    background: #EFF0D1;
+    color:#b1b1b1;
+}
+ul li ul li {
+    background: #000000;
+    display: block;
+    color: aliceblue;
+}
+ul li ul{
+    padding: 0;
+    position: absolute;
+    top: 45px;
+    left: -10000px;
+    width: 200px;
+}
+ul li ul li:hover{background:#EFF0D1}
+ul li:hover ul {
+    display: block;
+    left: 0px;
+    top: 70px;
+}
+
+body header {
+    color: #262730;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    line-height: .2;
+    justify-content: center;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+   padding-left: 65px;
+   
+}
+
+h3 {
+    color: #000000;
+    font-family: 'open sans', sans-serif;
+    font-size: 35px;
+}
+h4 {
+    color: #000000;
+    font-family: 'open sans', sans-serif;
+    font-size: 60px;
+    padding-left: 125px;
+    
+}
+.Arrowbody {
+    color: black;
+    font-size: 25px;
+}
+.boxh {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+img {
+    padding-left: 240px;
+    padding-top: 50px;
+}
+
+.Logos img{
+    width: 100px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.boxl {
+    color: #000000;
+    font-family: 'open sans', sans-serif;
+    font-size: 30px;
+    padding-top: 600px;
+    padding-bottom: 20px;
+}
+.hr2 {
+    width: 1190px;
+}
+
+.boxj{
+    padding-top: 607px;
+}
+.hr5 {
+    width: 690px;
+}
+.hr9 {
+    width: 1550px;
+}
